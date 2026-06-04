@@ -210,7 +210,9 @@ repo/
 └── powerbi/
     └── DDDM_dashboards.pbix
 ```
+## Livrables
 
+- [A/B Test Plan](docs/AB_Test_Plan.pdf)
 ---
 
 ## Fichiers générés
