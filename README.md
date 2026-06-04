@@ -283,8 +283,8 @@ Durée :
 
 # Authors
 
-Projet réalisé dans le cadre du module :
+Oussama AIT ELKABIR
 
-**Data-Driven Decision Making (DDDM)**
+Akram AL OUMAMI
 
-ENSIAS
+Ayoub JNIEH
