@@ -144,7 +144,47 @@ Métriques :
 - Accuracy
 
 ---
+# Installation
 
+Pré-requis : Python 3.8+ et `git`.
+
+Installer les dépendances :
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+# Exécution rapide
+
+Pour lancer le pipeline (génère les fichiers dans `outputs/`) :
+
+```bash
+python run_pipeline.py
+```
+
+Pour ouvrir l'analyse interactive :
+
+```bash
+jupyter notebook analysis.ipynb
+```
+
+# Architecture
+
+Le projet suit un pipeline de traitement de données et de modélisation :
+
+- Ingestion (fichiers sources) → Prétraitement (`ddm/`)
+- Analyse exploratoire (`analysis.ipynb`)
+- Modélisation (scripts et modules dans `ddm/`)
+- Export des résultats → `outputs/`
+
+Diagramme simplifié (ASCII) :
+
+```text
+raw_data/  -->  ddm.preprocessing  --> features/  --> models/  --> outputs/
+                                                        |                                  |
+                                                notebooks                         reports / pbix
+```
 # Dashboard Power BI
 
 Le dashboard contient 5 vues distinctes.
